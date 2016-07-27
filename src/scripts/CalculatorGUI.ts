@@ -110,7 +110,8 @@ export class CalculatorGUI {
                             new attribute('type', 'button'),
                         ],
                         events: [
-                            new event('click', numberOp.ev.bind(this, numberOp.token))
+                            new event('click', numberOp.ev.bind(this, numberOp.token)),
+                            new event('touch', numberOp.ev.bind(this, numberOp.token))
                         ]
                     })
                 ]
