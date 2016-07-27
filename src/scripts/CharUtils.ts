@@ -25,6 +25,7 @@ export class CharUtils {
     public static get CLOSE_BRACE() { return '\u0029'; };
     public static get EXPONENT() { return '\u005E'; };
     public static get MULTIPLIER() { return '\u002A'; };
+    public static get MULTIPLIER2() { return '\u0078'; };
     public static get DIVIDER() { return '\u002F'; };
     public static get ADDER() { return '\u002B'; };
     public static get SUBTRACTER() { return '\u002D'; };
@@ -56,7 +57,7 @@ export class CharUtils {
 
     public static IsOp(token: string): boolean {
         return token === this.ADDER || token === this.SUBTRACTER
-            || token === this.MULTIPLIER || token === this.DIVIDER
-            || token === this.EXPONENT;
+            || token === this.MULTIPLIER || token === this.MULTIPLIER2
+            || token === this.DIVIDER || token === this.EXPONENT;
     }
 }

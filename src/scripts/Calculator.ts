@@ -114,6 +114,8 @@ export class Calculator {
                 return OP_TYPES.SUBTRACT;
             case CharUtils.MULTIPLIER:
                 return OP_TYPES.MULTIPLY;
+            case CharUtils.MULTIPLIER2:
+                return OP_TYPES.MULTIPLY;
             case CharUtils.DIVIDER:
                 return OP_TYPES.DIVIDE;
             case CharUtils.EXPONENT:
@@ -141,6 +143,9 @@ export class Calculator {
                 lhs.result -= rhs.result;
                 break;
             case CharUtils.MULTIPLIER:
+                lhs.result *= rhs.result;
+                break;
+            case CharUtils.MULTIPLIER2:
                 lhs.result *= rhs.result;
                 break;
             case CharUtils.DIVIDER:
