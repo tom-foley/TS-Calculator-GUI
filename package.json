@@ -1,0 +1,24 @@
+{
+  "name": "ts-calculator-gui",
+  "version": "1.0.0",
+  "description": "A web-based GUI for the TS-Calculator implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "tom-foley",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gulp-typescript": "^2.13.6",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1"
+  }
+}
