@@ -19,3 +19,4 @@ If you would like to build the source yourself and use the CalculatorGUI elsewhe
 *   Add support for floating point operations. CURRENTLY THE `.` button DOES NOT WORK
 *   Add better input handling to make sure no illegal values make their way into the display
 *   Add keyboard/numpad support
+*   Add backspace button to delete most recently pressed character
