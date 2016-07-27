@@ -1,6 +1,9 @@
 #   TS-Calculator-GUI
 Web-based interface for demoing my implementation of a JavaScript calculator in TypeScript -- [TS-Calculator](https://github.com/tom-foley/TS-Calculator "TS-Calculator"), which aims to emulate JavaScript's native eval() in a safer manner.
 
+##  Demo
+![Alt text](CalculatorGUI_Demo.gif?raw=true "CalculatorGUI Demo")
+
 ##  Usage
 By cloning this repo, you will already have the compiled JS/CSS necessary to run the GUI on your local machine -- all you have to do is fire up a local server (python's `SimpleHTTPServer` is easiest on linux machines, however, a simple node server may be easier on windows) and browse to localhost:8080, where 8080 is the port the local server is running on. 
 
@@ -18,5 +21,5 @@ If you would like to build the source yourself and use the CalculatorGUI elsewhe
 *   Add button for calculating exponents(Calculator already has exponent support, just need to find a place for `^` button)
 *   Add support for floating point operations. CURRENTLY THE `.` button DOES NOT WORK
 *   Add better input handling to make sure no illegal values make their way into the display
-*   Add keyboard/numpad support
+*   Add keyboard/numpad support -- Also add listener to "enter" key to submit input to calculation
 *   Add backspace button to delete most recently pressed character
