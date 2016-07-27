@@ -1,5 +1,5 @@
 #   TS-Calculator-GUI
-Web-based interface for demoing my implementation of a JavaScript calculator in TypeScript -- [TS-Calculator](https://github.com/tom-foley/TS-Calculator "TS-Calculator"), which aims to emulate JavaScript's native eval() in a safer manner.
+Web-based interface for demoing my implementation of a JavaScript calculator in TypeScript -- [TS-Calculator](https://github.com/tom-foley/TS-Calculator "TS-Calculator"), which aims to emulate JavaScript's native `eval()` in a safer manner.
 
 ##  Demo
 ![Alt text](CalculatorGUI_Demo.gif?raw=true "CalculatorGUI Demo")
